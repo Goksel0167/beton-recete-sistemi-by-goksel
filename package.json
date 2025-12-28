@@ -1,0 +1,64 @@
+{
+  "name": "beton-recete-sistemi",
+  "version": "2.0.0",
+  "description": "Profesyonel Beton Reçete Tasarım Web Uygulaması - C8/10'dan C80/95'e kadar",
+  "keywords": [
+    "beton",
+    "concrete",
+    "reçete",
+    "mix-design",
+    "inşaat",
+    "construction",
+    "civil-engineering",
+    "ts802",
+    "ts-en-206"
+  ],
+  "author": "Beton Lab Pro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/beton-recete-sistemi"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/beton-recete-sistemi/issues"
+  },
+  "homepage": "https://github.com/yourusername/beton-recete-sistemi#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.5.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
